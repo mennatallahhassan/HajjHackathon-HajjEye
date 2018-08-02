@@ -1,0 +1,2 @@
+G:\WideBOT\NodejsBot\NodejsBot\obj\Debug\NodejsBot.njsprojResolveAssemblyReference.cache
+G:\WideBOT\NodejsBot\NodejsBot\bin\Microsoft.NodejsTools.WebRole.dll
