@@ -1,6 +1,0 @@
-Werkzeug
-Flask
-gevent
-pillow
-gunicorn==19.6.0
-requests
