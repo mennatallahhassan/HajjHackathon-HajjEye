@@ -88,8 +88,8 @@
     }
     });
 
-    function start(event) {
-    event.target.style.visibility = 'hidden';
+    function start() {
+    // event.target.style.visibility = 'hidden';
     
     skylink.joinRoom({
         audio: true,
@@ -120,18 +120,6 @@
         return roomId;
     }
     };
-    document.addEventListener("DOMContentLoaded", function(){
-        skylink.joinRoom({
-                audio: true,
-                video: true
-            }, function (error, success) {
-                if (error) {
-                document.getElementById('status').innerHTML = 'Failed joining room.<br>' +
-            'Error: ' + (error.error.message || error.error);
-                } else {
-                document.getElementById('status').innerHTML = 'Joined room.';
-                }
-            });
-    }); 
+    start();
   </script>
 </html>
