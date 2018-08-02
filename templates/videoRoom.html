@@ -40,7 +40,12 @@
     </style>
   </head>
   <body>
-    <video id="myvideo" style="transform: rotateY(-180deg);" autoplay muted></video>
+    <p id="status">Loading room information...</p>
+ 
+  <div id="start">
+    <button  onclick="start(event)">Start</button><br/>
+    <video id="myvideo" autoplay muted></video>
+  </div>
   </body>
   <script>
     var skylink = new Skylink();
