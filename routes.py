@@ -27,10 +27,10 @@ def handle_messages():
     except AttributeError:
         return 'json error'
 
-    if action == 'need_vlounteer':
+    if action == 'need_volunteer':
         res = need_vlounteer(req)
     else:
-        log.error('Unexpected action.')
+        res = 'Uknown Action'
     
     return make_response(jsonify({'fulfillmentText': res}))
 
