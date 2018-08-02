@@ -3,7 +3,7 @@ import sys, math
 from flask import Flask, render_template, redirect, url_for, flash, request,session, make_response, jsonify
 import ast, json
 # import requests
-from main import app,log
+from app import app,log
 from config import get_verify_token
 import traceback,os, requests
 import random
