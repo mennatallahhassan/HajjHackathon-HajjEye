@@ -13,6 +13,10 @@ import random
 
 # ai = apiai.ApiAI(CLIENT_ACCESS_TOKEN)
 
+@app.route('/room/<room_id>', methods=['GET'])
+def room(room_id):
+    return render_template('videoRoom.html', room_id=room_id)
+
 
 @app.route('/webhook', methods=['POST'])
 def handle_messages():
@@ -30,7 +34,7 @@ def handle_messages():
     if action == 'need_volunteer':
         res = need_vlounteer(req)
     else:
-        res = 'Uknown Action'
+        res = 'Unknown Action'
     
     return make_response(jsonify({'fulfillmentText': res}))
 
