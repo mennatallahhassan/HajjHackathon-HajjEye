@@ -38,21 +38,6 @@
     display: none;
     }
     </style>
-    <script>
-            $(function(){
-                skylink.joinRoom({
-                audio: true,
-                video: true
-            }, function (error, success) {
-                if (error) {
-                document.getElementById('status').innerHTML = 'Failed joining room.<br>' +
-            'Error: ' + (error.error.message || error.error);
-                } else {
-                document.getElementById('status').innerHTML = 'Joined room.';
-                }
-            });
-            });
-    </script>
   </head>
   <body>
     <p id="status">Loading room information...</p>
@@ -135,6 +120,18 @@
         return roomId;
     }
     };
-
+    document.addEventListener("DOMContentLoaded", function(){
+        skylink.joinRoom({
+                audio: true,
+                video: true
+            }, function (error, success) {
+                if (error) {
+                document.getElementById('status').innerHTML = 'Failed joining room.<br>' +
+            'Error: ' + (error.error.message || error.error);
+                } else {
+                document.getElementById('status').innerHTML = 'Joined room.';
+                }
+            });
+    }); 
   </script>
 </html>
