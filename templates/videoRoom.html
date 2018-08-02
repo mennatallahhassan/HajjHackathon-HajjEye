@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>WebRTC with Temasys SkylinkJS</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="/static/js/skylink.complete.min.js"></script>
     <style>
     header {
@@ -120,6 +121,9 @@
         return roomId;
     }
     };
-    start();
+    $( document ).ready(function() {
+        console.log( "document loaded" );
+        start();
+    });
   </script>
 </html>
