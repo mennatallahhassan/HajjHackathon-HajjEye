@@ -1,0 +1,34 @@
+{
+    "Welcome_Message": {
+        "ar": "اهلاً بك يا {{first_name}} فى الــ Hajj Eye",
+        "en": "Welcome {{first_name}} to Hajj Eye!"
+    },
+    "Choose_Language": {
+        "ar": "اخبرنى ما اللغة التى تتحدث بها",
+        "en": "What language do you speak?"
+    },
+    "Ttw3_Message": {
+        "ar": "رائع يا {{first_name}}.\n سوف ابلغك وقت وجود شخص يحتاج الى مساعدة فى محادثة فيديو",
+     "en":"Good job {{first_name}}, I will tell you if there is any pilgrim need to your help using video call."
+    },
+    "La7kn": {
+        "ar": "لاحقاً",
+        "en":"Later"  
+    },
+    "Volunteer": {
+        "ar": "تطوع",
+        "en":"Volunteer"
+    },
+    "Ask_Volenteering": {
+        "ar": "يمكنك التطوع لمساعدة اشخاص خلال فترة الحج، و تربح نقاط تشترى بها من علامات تجارية",
+        "en":"You can volunteer to help pilgrims, to gain points."
+    },
+    "Not_Now": {
+        "ar": "حسناً يمكنك الانضمام الينا فى اى وقت.",
+        "en":"Okay, you can join us any time."
+    },
+    "Broadcast_Message":{
+        "ar":"{{first_name}} يوجد شخص يحتاج الى المساعدة الان فى الحج يمكنك الضغط على الرابط التالى للتواصل معه",
+        "en":"{{first_name}}, there is a pilgrim asking for your help you can open the following link to help."
+    }
+}
